@@ -1,0 +1,223 @@
+.about {
+    text-align: center;
+    padding: 20px;
+    border-right: 1px solid black;
+    margin-top: 30px;
+    font-family: "neosans", Helvatica Neue, sans-serif;
+}
+
+.about h2 {
+    font-size: 40px;
+}
+
+.about-paragraph {
+    text-align: center;
+    padding: 30px;
+    margin-top: 30px;
+    font-size: 15px;
+}
+
+.anchor {
+    position: relative;
+    display: block;
+    top: -150px;
+    visibility: hidden;
+}
+
+.black-box {
+    color: white;
+    background-color: black;
+    height: 325px;
+    margin-top: 30px;
+}
+
+.block {
+    background-color: gainsboro;
+    height:200px;  
+}
+
+.contact {
+    text-align: center;
+}
+.contact a {
+    color: black;
+}
+
+.hardware {
+    padding: 30px;
+    text-align: center;
+    width: auto;
+    margin-left: 15%;
+    font-family: "neosans", Helvetica Neue, sans-serif;
+    font-size: 40px;
+
+}
+
+.header {
+    padding-bottom: 50px;
+}
+
+.hero-image {
+    padding-top: 150px;
+}
+
+.info {
+    padding-top: 10px;
+}
+
+.info p {
+    padding-top: 10px;
+}
+
+.navbar {
+    background-color: whitesmoke;
+    border-bottom:white;
+    height: 120px;
+}
+
+.navbar-header .navbar-toggle .icon-bar {
+    background-color: black;
+}
+
+.name {
+    margin-top: 35px;
+    border-top: 20px solid black;
+    text-align: right;
+    z-index: 1;
+}
+
+.name h1 {
+    font-size: 40px;
+    font-weight: bold;
+    
+}
+
+.navigation {
+    float: right;
+    margin-right: 5%;
+}
+
+.project-image {
+    height:370px;
+    padding: 0;
+    margin: 0;
+}
+
+.project {
+    margin-bottom:50px;
+}
+
+.software {
+    text-align: center;
+    padding: 20px;
+    margin-left: 50%;
+    font-family: "neosans", Helvatica Neue, sans-serif;
+    font-size: 40px;
+ 
+}
+
+ul.navigation li {
+    position: relative;
+    top: 35px;
+    list-style:none; 
+    display: inline;
+    padding-right: 30px;
+}
+
+ul.navigation a {
+    border-top: 15px solid;
+    display: inline-block;
+    width: 100px;
+    text-align: right;
+    border-color: black;
+    color: black;
+    font-size: 14px;
+}
+
+
+@font-face {
+  font-family: 'neosans';
+  src: url('fonts/neosans-medium-webfont.eot');
+  src: url('fonts/neosans-medium-webfont.eot?#iefix') format('embedded-opentype'), url('fonts/neosans-medium-webfont.woff') format('woff'), url('fonts/neosans-medium-webfont.ttf') format('truetype'), url('fonts/neosans-medium-webfont.svg#neosansregular') format('svg');
+  font-weight: normal;
+  font-style: normal; 
+}
+
+@font-face {
+  font-family: 'proxima nova';
+  src: url('fonts/proximanova-light-webfont.eot');
+  src: url('fonts/proximanova-light-webfont.eot?#iefix') format('embedded-opentype'), url('fonts/proximanova-light-webfont.woff') format('woff'), url('fonts/proximanova-light-webfont.ttf') format('truetype'), url('fonts/proximanova-light-webfont.svg#proxima_nova_ltregular') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+
+/* Phone and Other Screen resolutions */
+
+@media (max-width: 992px)  {
+    .about {
+        border: none;
+        padding-bottom: 0px;
+    }
+    
+    .about-paragraph {
+        padding-top: 0;
+        padding-bottom: 0px;
+    }
+    
+    .black-box {
+        margin-top: 0px;
+        margin-bottom: 50px;
+      
+    }
+    
+    .contact {
+        padding: 10px;
+    }
+    
+    .hardware {
+        margin-left: 0%;
+    }
+    
+    .name h1 {
+        font-size: 30px;
+    }
+    
+    .project-image {
+        width: 100%;
+    
+    }
+    
+    .reverse-top {
+        position: relative;
+        top: 375px;
+        
+    }
+    
+    .reverse-bottom {
+        bottom: 370px;  
+    }
+    
+    .software {
+        margin-left: 0%;
+    }
+
+}
+
+@media (max-width: 768px) {
+    .name h1 {
+        font-size: 25px;
+    }
+}
+
+@media (max-width: 480px) {
+    ul.navigation a {
+        position: relative;
+        left: 30px;
+    }
+    ul.navigation li{
+        padding-right: 25px;
+        
+    }
+    
+}
+
